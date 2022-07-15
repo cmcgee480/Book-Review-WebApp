@@ -1,0 +1,1 @@
+{"version":1,"defects":{"MockFunctionTest::testPageLoadFunction":3,"MockFunctionTest::testPingTimeFunction":4,"MockFunctionTest::testWebResponseTimeFunction":4},"times":{"MockFunctionTest::testPageLoadFunction":67.569,"MockFunctionTest::testPingTimeFunction":0.141,"MockFunctionTest::testWebResponseTimeFunction":3.665,"BandwidthFunctionTest::testBandwidthTest":0.029}}

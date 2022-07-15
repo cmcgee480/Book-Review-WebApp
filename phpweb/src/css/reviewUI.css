@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Serif Pro';
+}
+
+.jumbotron {
+    background: url('../img/library.jpeg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    border: 5px;
+    border-color: rgb(3, 3, 3);
+    border-style: outset;
+    color: white;
+    border-radius: 0px!important;
+}
+
+.jumbotron h1 {
+    margin: 30px 0;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.jumbotron h2 {
+    margin: 30px 0;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+}
+
+.favecontent {
+    width: 50%;
+    height: 110px;
+    margin: auto;
+    text-align: center;
+}
+
+.reviewbox {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.reviewbox img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 16px;
+}
+
+.content {
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.reviewfaves {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+
+.reviewfaves table {
+    margin-bottom: 0px;
+}
+
+.intro {
+    padding-top: 160px;
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+
+.navbar-nav a {
+    color: white!important;
+    margin: 0 20px;
+    margin-top: 30px;
+}
+
+.navbar-toggler {
+    color: white!important;
+    border: none!important;
+    outline: none!important;
+    background-color: black;
+}
+
+.fa fa-gamepad {
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+    font-size: 26px;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+
+#header .btn {
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 6px 26px;
+    font-size: 16px;
+}
+
+#header {
+    transition: .5s;
+}
+
+#mainfooter {
+    background-color: cadetblue;
+    color: white;
+    font-size: smaller;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 101px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+#mainfooterfave {
+    background-color: cadetblue;
+    color: white;
+    font-size: smaller;
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    height: 101px;
+    overflow: hidden;
+}
+
+#getintouch {
+    font-size: small;
+    margin: 10px;
+    width: 50%;
+}
+
+button {
+    display: inline-block;
+    background-color: black;
+    border: none;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 1px;
+    right: 16px;
+}
+
+@media only screen and (max-width:1000px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .navbar-nav a {
+        margin: 0px 5px 0 17px;
+        margin-top: 30px;
+    }
+    .intro {
+        padding-top: 130px;
+        ;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .jumbotron h1 {
+        font-size: 26px;
+        line-height: 1.7;
+    }
+    .intro {
+        padding-top: 100px;
+    }
+}

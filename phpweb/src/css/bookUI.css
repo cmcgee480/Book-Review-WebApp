@@ -1,0 +1,294 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Serif Pro';
+}
+
+.jumbotron {
+    background: url('../img/library.jpeg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border: 5px;
+    border-color: rgb(3, 3, 3);
+    border-style: outset;
+    color: white;
+    border-radius: 0px!important;
+}
+
+.jumbotron h1 {
+    margin: 30px 0;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+ul.grid li p {
+    font-size: small;
+    height: 20px;
+    padding-top: 1px;
+    padding-bottom: 80px;
+}
+
+navbar.navbar-expand-lg fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+ul.grid li h2 {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+ul.grid li h1 {
+    font-size: small;
+}
+
+ul.grid {
+    text-align: center;
+}
+
+.Maincontent {
+    padding-top: 40px;
+}
+
+.jumbotron h2 {
+    margin: 0 0 0 0;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.intro {
+    padding-top: 140px;
+}
+
+.gamebutton {
+    border-radius: .25rem;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    color: #fff;
+}
+
+.filterbar a {
+    background-color: black;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    border-radius: 1ex;
+}
+
+.filterbar {
+    margin-top: 50px;
+}
+
+.gamebutton2 {
+    margin-top: 50px;
+}
+
+.navbar-nav {
+    font-size: 20px;
+}
+
+.navbar-nav a {
+    color: white!important;
+    margin: 0 20px;
+    margin-top: 30px;
+}
+
+.navbar-toggler {
+    color: white!important;
+    border: none!important;
+    outline: none!important;
+    background-color: black;
+}
+
+.navbar-toggler {
+    color: white;
+    font-size: 26px;
+}
+
+.fa fa-gamepad {
+    color: white;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+
+#header .btn {
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 6px 26px;
+    font-size: 16px;
+}
+
+ul li img {
+    max-width: 100%;
+    transition: transform 0.5s;
+}
+
+ul li:hover img {
+    transform: scale(1.2);
+}
+
+#header {
+    transition: .5s;
+}
+
+.navbar navbar-expand-lg fixed-top {
+    position: relative;
+}
+
+#mainfooter {
+    background-color:cadetblue;
+    color: white;
+    font-size: smaller;
+    left: 0;
+    position: absolutef;
+    bottom: 0px;
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+}
+
+ul.grid li {
+    margin-bottom: 30px;
+    float: left;
+    width: 10%;
+    @media(max-width: 910px) {
+        display: block;
+        font-size: 25px
+    }
+}
+
+ul.grid li img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 16px;
+}
+
+ul.grid {
+    padding-right: 140px;
+    width: 100%;
+}
+
+#getintouch {
+    font-size: small;
+    margin: 10px;
+    width: 50%;
+}
+
+button {
+    display: inline-block;
+    background-color: black;
+    border: none;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 1px;
+    right: 16px;
+}
+
+.content {
+    font-size: smaller;
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#main {
+    height: fit-content;
+    float: left;
+    width: 60%;
+    padding: 0 0 0 20px;
+    border: none;
+}
+
+li h2 {
+    padding-bottom: 5px;
+    padding-top: 70px;
+    font-size: large;
+}
+
+form button {
+    margin-top: 0%;
+}
+
+#sidebar {
+    background: url('img/videogame3.jpg');
+    float: right;
+    height: 250px;
+    width: 40%;
+    border: none;
+    overflow: hidden;
+}
+
+#footer {
+    background-color:cadetblue;
+    color: white;
+    font-size: smaller;
+    left: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+}
+
+li textarea {
+    padding-left: 10px;
+}
+
+ul.grid li {
+    float: right;
+    display: block;
+    width: 33%;
+    padding-left: 90px;
+}
+
+.grid columns-3 {
+    display: block;
+}
+
+.gallery {
+    background-color: darkblue;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#descript {
+    width: 300px;
+    height: 200px;
+}
+
+@media only screen and (max-width:1000px) {
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .navbar-nav a {
+        margin: 0px 5px 0 17px;
+        margin-top: 30px;
+    }
+    .intro {
+        padding-top: 130px;
+        ;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .jumbotron h1 {
+        font-size: 26px;
+        line-height: 1.7;
+    }
+    .intro {
+        padding-top: 100px;
+    }
+}
